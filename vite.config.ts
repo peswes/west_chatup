@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  // base: '/west_chatup/',
+  base: '/west_chatup/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
